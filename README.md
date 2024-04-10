@@ -1,51 +1,55 @@
-# Nome do Mini Projeto
+# Lista de Compras em React
 
-(um parágrafo explicando)
+Crie uma lista de compras dinâmica para te ajudar a lembrar quais itens comprar no supermercado! Pratique conceitos fundamentais de React com este Mini Projeto.
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Este projeto já possui um setup pré-configurado utilizando o Vite. Sinta-se à vontade para utilizá-lo ou, se preferir, começar do zero!
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
+**Formulário**
+- Implemente a funcionalidade do formulário para que, ao submetê-lo, o item seja adicionado à lista de compras.
+    - Você pode optar por utilizar inputs controlados ou não controlados. Pratique a abordagem com a qual você tem menos familiaridade.
 
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
+**Concluir Item**
+- Implemente a funcionalidade de marcar um item como concluído ao clicar no botão correspondente.
+    - Este item deverá ser movido para a lista de "Itens já comprados".
+    - O texto do item marcado deverá ser riscado e ter uma cor mais clara.
+    - O ícone de "A fazer" (círculo vazio) deverá ser substituído pelo ícone de "Feito" (check).
 
-- Requisito 3
-- ...
+**Excluir Item**
+- Implemente a funcionalidade de excluir um item ao clicar no ícone de lixeira.
 
-## 🔨 Desafio extra para quem quer ir além
-
-(Essa seção é opcional)
-
-- Requisito extra 1. 
-- Requisito extra 2.
+**Componentização**
+- Organize o código em componentes e mantenha-o legível.
 
 ## 🎨 Design Sugerido
 
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+Temos uma sugestão de design no Figma. No entanto, sinta-se à vontade para criar a aplicação de acordo com a sua criatividade.
 
 ### Figma
 
-🔗 [Link do design]()
+🔗 [Link do design](https://www.figma.com/community/file/1359838269352833899/mini-projeto-lista-de-compras-em-react)
 
-## 👉🏽 Sobre esse mini-projeto
+## 👉🏽 Sobre este mini-projeto
 
 ### O que você irá praticar:
 
 #### React
 
-- Habilidade 1 do React
-- Habilidade 2
+- Componentes controlados e não controlados
+- Formulários
+- Estado
+- Renderização condicional
+- Manipulação de eventos (onClick vs onSubmit)
 
-#### TailwindCSS
+> [!TIP]
+> Preste atenção na estrutura de dados do seu estado.
 
-- Habilidade 1 do TailwindCSS
+> [!TIP]
+> Você prefere usar formulário controlado ou não controlado neste caso?
 
-### Pré requisitos
+### Pré-requisitos
 
-(coloque aqui se houver algum)
+- Conhecimento básico de React (JSX, componentes, props)
