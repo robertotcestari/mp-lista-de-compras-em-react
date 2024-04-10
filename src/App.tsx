@@ -1,6 +1,7 @@
 import logo from './assets/logo.svg';
 import trash from './assets/trash.svg';
 import todo from './assets/todo.svg';
+import done from './assets/done.svg';
 
 function App() {
   return (
@@ -73,7 +74,7 @@ function App() {
           Itens já comprados
         </h2>
         <article className="flex w-full gap-4">
-          <img src={todo} alt="#" />
+          <img src={done} alt="#" />
           <div className="flex-1">
             <p>Leite</p>
             <p className="text-sm text-slate-400">3 Caixas</p>
@@ -86,7 +87,7 @@ function App() {
         </article>
         <hr />
         <article className="flex w-full gap-4">
-          <img src={todo} alt="#" />
+          <img src={done} alt="#" />
           <div className="flex-1">
             <p>Maçã</p>
             <p className="text-sm text-slate-400">500g</p>
