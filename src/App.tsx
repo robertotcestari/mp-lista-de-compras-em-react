@@ -18,12 +18,12 @@ function App() {
       </header>
       <form className="flex gap-2">
         <div className="flex-shrink">
-          <label htmlFor="item" className="block text-xs text-slate-400">
+          <label htmlFor="name" className="block text-xs text-slate-400">
             Item
           </label>
           <input
             type="text"
-            id="quantity"
+            id="name"
             className="block w-full px-3 py-2 border rounded-lg border-slate-300 text-slate-700"
           />
         </div>
