@@ -76,8 +76,8 @@ function App() {
         <article className="flex w-full gap-4">
           <img src={done} alt="#" />
           <div className="flex-1">
-            <p>Leite</p>
-            <p className="text-sm text-slate-400">3 Caixas</p>
+            <p className="line-through text-slate-400">Leite</p>
+            <p className="text-sm line-through text-slate-400">3 Caixas</p>
           </div>
           <img
             src={trash}
@@ -89,8 +89,8 @@ function App() {
         <article className="flex w-full gap-4">
           <img src={done} alt="#" />
           <div className="flex-1">
-            <p>Maçã</p>
-            <p className="text-sm text-slate-400">500g</p>
+            <p className="line-through text-slate-400">Maçã</p>
+            <p className="text-sm line-through text-slate-400">500g</p>
           </div>
           <img
             src={trash}
