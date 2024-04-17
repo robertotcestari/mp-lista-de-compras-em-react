@@ -46,9 +46,9 @@ Temos uma sugestão de design no Figma. No entanto, sinta-se à vontade para cri
 - Renderização condicional
 - Manipulação de eventos (onClick vs onSubmit)
 
-> [!TIP]
+> [!TIP]  
 > Preste atenção na estrutura de dados do seu estado.  
-> Você prefere usar formulário controlado ou não controlado neste caso?
+> Você prefere usar formulário controlado ou não controlado neste caso?  
 
 ### Pré-requisitos
 
